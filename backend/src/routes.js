@@ -15,11 +15,11 @@ routes.post('/session', celebrate({
 }), SessionController.create)
 
 /**
-     *Params: (origem dos parametros)
-     * Query
-     * Route
-     * Body
-     */
+ *Params: (origem dos parametros)
+* Query
+* Route
+* Body
+*/
 
 // lista itens do banco de dados
 routes.get('/ongs', OngController.index);
